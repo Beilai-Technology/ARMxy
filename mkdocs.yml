@@ -1,0 +1,41 @@
+﻿site_name: Documentation
+site_description: Documentation website template
+site_url: https://example.com/your-repository/
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh
+          default: true
+          name: 中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            首页: Home
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  logo: assets/图片材料/钡铼技术英文logo.png
+  favicon: assets/图片材料/钡铼技术英文logo.png
+palette:
+    - scheme: default
+      primary: light-blue
+      accent: blue
+
+nav:
+  - 首页: index.md
+
+extra_css:
+  - assets/custom.css
+
+
+
