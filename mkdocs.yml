@@ -19,6 +19,7 @@ plugins:
           build: true
           nav_translations:
             首页: Home
+            规格书: Specifications
 
 theme:
   name: material
@@ -26,16 +27,25 @@ theme:
   language: zh
   logo: assets/图片材料/钡铼技术英文logo.png
   favicon: assets/图片材料/钡铼技术英文logo.png
-palette:
+  palette:
     - scheme: default
       primary: light-blue
       accent: blue
 
 nav:
   - 首页: index.md
+  - 规格书:
+      - BL310 系列: 规格书/ARMxy BL310系列ARM嵌入式工业计算机规格书.md
+      - BL330 系列: 规格书/ARMxy BL330系列ARM嵌入式工业计算机规格书.md
+      - BL335 系列: 规格书/ARMxy BL335系列ARM嵌入式工业计算机规格书.md
+      - BL340 系列: 规格书/ARMxy BL340系列ARM嵌入式工业计算机规格书.md
+      - BL350 系列: 规格书/ARMxy BL350系列ARM嵌入式工业计算机规格书.md
+      - BL360 系列: 规格书/ARMxy BL360系列ARM嵌入式工业计算机规格书.md
+      - BL370 系列: 规格书/ARMxy BL370系列ARM嵌入式工业计算机规格书.md
+      - BL410 系列: 规格书/ARMxy BL410系列ARM嵌入式工业计算机规格书.md
+      - BL440 系列: 规格书/ARMxy BL440系列ARM嵌入式工业计算机规格书.md
+      - BL450 系列: 规格书/ARMxy BL450系列ARM嵌入式工业计算机规格书.md
+      - BL460 系列: 规格书/ARMxy BL460系列ARM嵌入式工业计算机规格书.md
 
 extra_css:
   - assets/custom.css
-
-
-
