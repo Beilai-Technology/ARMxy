@@ -1,1 +1,44 @@
-/* custom styles */
+﻿/* ==========================
+   标题、正文字号（公文字号标准）
+   ========================== */
+/* 一级标题 # 章节大标题 —— 小二 */
+.md-typeset h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1em 0 0.6em;
+}
+
+/* 二级标题 ## 小节标题 —— 小三 */
+.md-typeset h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1em 0 0.5em;
+}
+
+/* 三级标题 ### 子小节 —— 四号 */
+.md-typeset h3 {
+    font-size: 1.167rem;
+    font-weight: 600;
+}
+
+/* 四级标题 #### —— 小四 */
+.md-typeset h4 {
+    font-size: 1rem;
+}
+
+/* 正文段落文字 —— 五号 */
+.md-typeset p {
+    font-size: 0.875rem;
+    line-height: 1.7;
+}
+
+/* 列表同步五号正文尺寸 */
+.md-typeset li {
+    font-size: 0.875rem;
+    line-height: 1.7;
+}
+
+/* 代码块略小于正文 */
+.md-typeset code {
+    font-size: 0.82rem;
+}
